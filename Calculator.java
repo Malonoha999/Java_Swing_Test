@@ -26,7 +26,7 @@ public class Calculator {
                     double sum = num1 + num2;
                     resultLabel.setText("Результат: " + sum);
                 } catch (NumberFormatException ex) {
-                    resultLabel.setText("Ошибка ввода!");
+                    resultLabel.setText("Ошибка ввода");
                 }
             }
         });
